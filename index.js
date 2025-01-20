@@ -1,4 +1,4 @@
-const jsonServer = require('json-server')
+const jsonServer = import('json-server')
 
 const MPserver = jsonServer.create()
 const middleware = jsonServer.defaults()
